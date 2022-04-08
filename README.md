@@ -7,7 +7,7 @@ On commence par lancer l'image docker : docker-compose up -d <br />
 Nous avons entrainé nos modeles en avance dans notre notebook project qui est en meme temps un laboratoire pour tester des fonctionalités ainsi 
 que le lieu ou on sauvegarde nos pipelines de preprocessing. <br /> <br />
 Pour visualiser les resultats du consumer il faut tout d'abord load les modeles et les pipelines de preprocessing puis mettre fin 
-à la session spark courante puis relancer une nouvelle session, lancer le producer en local puis la cellule du consumer. <br /> <br />
+à la session spark courante puis relancer une nouvelle session, lancer le producer en local avec la commande :python producer.py puis la cellule du consumer. <br /> <br />
 Le streaming des données affiche pour chaque donnée de test envoyée, 
 la prediction donnée par le modele ainsi que le label pour chaque niveau et chaque preprocessing differents et stocke en meme temps dans des dataframe le couple prediction/label. <br />
 Vu le nombre elevé de données dans notre test set, on arrete le consumer manuellement. <br />
