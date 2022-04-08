@@ -9,7 +9,7 @@ que le lieu ou on sauvegarde nos pipelines de preprocessing. <br /> <br />
 Pour visualiser les resultats du consumer il faut tout d'abord load les modeles et les pipelines de preprocessing puis mettre fin 
 à la session spark courante puis relancer une nouvelle session, lancer le producer en local puis la cellule du consumer. <br /> <br />
 Le streaming des données affiche pour chaque donnée de test envoyée, 
-la prediction dpnnée par le modele ainsi que le label pour chaque niveau et chaque preprocessing differents et stocke en meme temps dans des dataframe le couple prediction/label. <br />
+la prediction donnée par le modele ainsi que le label pour chaque niveau et chaque preprocessing differents et stocke en meme temps dans des dataframe le couple prediction/label. <br />
 Vu le nombre elevé de données dans notre test set, on arrete le consumer manuellement. <br />
 
 Pour la visualisation, nous avons instancié des objets de type MulticlassMetrics à partir des dataframe sauvegardé puis on affiche une figure qui nous donne la precision des differents modeles. <br />
