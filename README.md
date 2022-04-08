@@ -1,5 +1,6 @@
 # projet-archi
 Objectif du projet : L'objectif principal du projet est la classification de text issus d'article de Wikipedia en differentes categories, avec plusieurs degrés de complexité (Plus de details dans le lien vers le dataset) <br />
+
 Data récuperés de Kaggle :https://www.kaggle.com/datasets/danofer/dbpedia-classes?select=DBPEDIA_train.csv  <br />
 On commence par lancer l'image docker : docker-compose up -d <br /> 
 
