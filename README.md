@@ -3,7 +3,7 @@ Objectif du projet : L'objectif principal du projet est la classification de tex
 Data récuperés de Kaggle :https://www.kaggle.com/datasets/danofer/dbpedia-classes?select=DBPEDIA_train.csv  <br />
 On commence par lancer l'image docker : docker-compose up -d <br />
 Nous avons entrainé nos modeles en avance dans notre notebook project qui est en meme temps un laboratoire pour tester des fonctionalités ainsi 
-que le lieu ou on sauvegarde nos pipelines de preprocessing. <br />
+que le lieu ou on sauvegarde nos pipelines de preprocessing. <br /> <br />
 Pour visualiser les resultats du consumer il faut tout d'abord load les modeles et les pipelines de preprocessing puis mettre fin 
 à la session spark courante puis relancer une nouvelle session, lancer le producer en local puis la cellule du consumer. <br />
 Le streaming des données affiche pour chaque donnée de test envoyée, 
